@@ -1,0 +1,36 @@
+# 环境变量与密钥 —— 绝不入库
+.env
+.env.*
+*.env
+mcp-config.json
+mcp-config.local.json
+
+# 含真实 Token 的配置
+*token*
+!mcp-config.example.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志与临时
+*.log
+tmp/
+temp/
+*.tmp
+
+# Node（若未来加入工具脚本）
+node_modules/
+package-lock.json
+
+# Python（若未来加入工具脚本）
+__pycache__/
+*.pyc
+.venv/
